@@ -26,6 +26,10 @@ export default function Navbar({ onTrialClick }) {
 
   const isActive = (path) => location.pathname === path;
 
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const navLinks = [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
@@ -40,7 +44,7 @@ export default function Navbar({ onTrialClick }) {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="nav-container">
           {/* Logo */}
-          <Link to="/" className="nav-logo">
+          <Link to="/" className="nav-logo" onClick={handleLinkClick}>
             <div className="nav-logo-icon">
               <svg viewBox="0 0 40 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 2L36 8V22C36 31.5 29 39.5 20 42C11 39.5 4 31.5 4 22V8L20 2Z" fill="rgba(166,255,0,0.15)" stroke="#A6FF00" strokeWidth="1.5"/>
@@ -61,6 +65,7 @@ export default function Navbar({ onTrialClick }) {
                 <Link
                   to={path}
                   className={`nav-link ${isActive(path) ? 'active' : ''}`}
+                  onClick={handleLinkClick}
                 >
                   {label}
                 </Link>
@@ -104,6 +109,7 @@ export default function Navbar({ onTrialClick }) {
               to={path}
               className={`mobile-link ${isActive(path) ? 'active' : ''}`}
               style={{ '--d': `${i * 60}ms` }}
+              onClick={handleLinkClick}
             >
               {label}
             </Link>
