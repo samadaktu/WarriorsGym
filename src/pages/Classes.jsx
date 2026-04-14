@@ -5,6 +5,17 @@ import './Classes.css';
 
 const CLASSES = [
   {
+    id: 'muaythai',
+    tag: 'WMO Awarded',
+    title: 'Muay Thai',
+    level: 'All Levels',
+    duration: '75 min',
+    capacity: '16 per class',
+    img: 'https://images.unsplash.com/photo-1544919982-b61976f0ba43?w=700&q=80&fm=webp',
+    desc: 'WMO Awarded Muay Thai training. Authentic 8-limb system — punches, kicks, elbows and knees. Learn traditional Thai techniques under certified Kru-level instructors in Dun Laoghaire. Pad work, bag work and technical drilling.',
+    schedule: ['Tue 7:00 AM', 'Tue 7:00 PM', 'Thu 7:00 AM', 'Thu 7:00 PM', 'Sat 12:00 PM'],
+  },
+  {
     id: 'boxing',
     tag: 'Most Popular',
     title: 'Boxing',
@@ -12,19 +23,8 @@ const CLASSES = [
     duration: '60 min',
     capacity: '20 per class',
     img: 'https://images.unsplash.com/photo-1555597673-b21d5c935865?w=700&q=80&fm=webp',
-    desc: 'Master the sweet science with our technical boxing programme. From fundamentals — stance, footwork, jab/cross/hook — to advanced combination work, sparring and competition prep. Suitable for total beginners through to competitive fighters.',
+    desc: 'Master the sweet science with our technical boxing programme. From fundamentals — stance, footwork, jab/cross/hook — to advanced combination work, sparring and competition prep. Suitable for beginners through to competitive fighters.',
     schedule: ['Mon 7:00 AM', 'Mon 6:30 PM', 'Wed 7:00 AM', 'Wed 6:30 PM', 'Fri 7:00 AM', 'Fri 6:30 PM', 'Sat 10:00 AM'],
-  },
-  {
-    id: 'muaythai',
-    tag: '',
-    title: 'Muay Thai',
-    level: 'All Levels',
-    duration: '75 min',
-    capacity: '16 per class',
-    img: 'https://images.unsplash.com/photo-1544919982-b61976f0ba43?w=700&q=80&fm=webp',
-    desc: 'Authentic Muay Thai training covering the full 8-limb system — punches, kicks, elbows and knees. Learn traditional Thai techniques under certified Kru-level instructors. Classes include pad work, bag work and technical drilling.',
-    schedule: ['Tue 7:00 AM', 'Tue 7:00 PM', 'Thu 7:00 AM', 'Thu 7:00 PM', 'Sat 12:00 PM'],
   },
   {
     id: 'sc',
@@ -56,7 +56,7 @@ const CLASSES = [
     duration: '60 min',
     capacity: '12 per class',
     img: 'https://images.unsplash.com/photo-1592632789003-01f4c4c66e37?w=700&q=80&fm=webp',
-    desc: 'Never trained before? This is your starting point. Our 8-week beginner programme covers everything you need to know — safety, basic boxing stance and movement, fundamental punches, wrapping your hands, and gym etiquette. A brilliant first step into combat sports.',
+    desc: 'Never trained before? This is your starting point. Our 8-week beginner programme covers everything you need to know — safety, basic boxing stance and movement, fundamental punches, wrapping your hands, and gym etiquette.',
     schedule: ['Tue 6:30 PM', 'Thu 6:30 PM', 'Sat 11:00 AM'],
   },
   {
@@ -86,9 +86,10 @@ export default function Classes({ onTrialClick }) {
         <div className="container page-hero-content">
           <div className="eyebrow">Our Classes</div>
           <h1>Find Your <span className="neon">Programme</span></h1>
-          <p>Six world-class programmes for every level, goal and schedule — all under one roof in Tallaght, Dublin 24.</p>
+          <p>Six world-class programmes for every level, goal and schedule — all under one roof in Dun Laoghaire.</p>
         </div>
       </section>
+
 
       <section className="section">
         <div className="container">

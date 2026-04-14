@@ -179,7 +179,7 @@ export default function Pricing({ onTrialClick }) {
           <div className="page-cta-inner reveal">
             <div className="eyebrow">Still Unsure?</div>
             <h2>Try Before You <span className="neon">Commit</span></h2>
-            <p>Your first session is completely free. No credit card, no contract, no pressure. Just great training in Dublin 24.</p>
+            <p>Your first session is completely free. No credit card, no contract, no pressure. Just great training in Dun Laoghaire.</p>
             <div className="page-cta-btns">
               <button className="btn btn-primary" onClick={onTrialClick}>Book My Free Trial →</button>
             </div>

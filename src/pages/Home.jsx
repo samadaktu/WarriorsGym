@@ -4,8 +4,8 @@ import { useScrollReveal } from '../hooks/useScrollReveal';
 import './Home.css';
 
 const STRIP_ITEMS = [
-  'Elite Boxing', 'Muay Thai', 'Strength & Conditioning', 'Personal Training',
-  'Beginner Classes', 'Dublin 24', 'Expert Coaches', 'Free Trial',
+  'Muay Thai', 'Elite Boxing', 'Thai Boxing', 'Strength & Conditioning', 'Personal Training',
+  'Beginner Classes', 'Dun Laoghaire', 'Expert Coaches', 'Free Trial',
 ];
 
 const WHY_ITEMS = [
@@ -14,16 +14,16 @@ const WHY_ITEMS = [
   { icon: '🏅', title: 'All Levels Welcome', desc: 'From complete beginners to competitive fighters — we have structured programmes for every level.' },
   { icon: '🤝', title: 'Community Spirit', desc: 'Join a tight-knit community of warriors who support and push each other to new heights every session.' },
   { icon: '📅', title: 'Flexible Schedule', desc: 'Early mornings to late evenings, 7 days a week. We work around your life, not the other way around.' },
-  { icon: '📍', title: 'Based in Dublin 24', desc: 'Conveniently located in Tallaght with ample parking and easy access from all areas of Dublin.' },
+  { icon: '📍', title: 'Based in Dun Laoghaire', desc: 'Conveniently located at 70 Mounttown Lower with ample parking and easy access from all areas of Dublin.' },
   { icon: '🔒', title: 'Safe Environment', desc: 'A respectful, inclusive space where everyone trains hard but looks out for each other at all times.' },
   { icon: '🎯', title: 'Results-Driven', desc: 'Structured progression paths, fitness tracking, and expert guidance to ensure you reach your goals.' },
 ];
 
 const TESTIMONIALS = [
   { name: 'Ciarán Murphy', since: 'Member since 2022', text: 'Warriors Gym completely changed my life. I started as a total beginner and now I compete at national level. The coaching here is second to none in Dublin.', initials: 'CM' },
-  { name: 'Aoife Brennan', since: 'Member since 2021', text: 'Brilliant atmosphere, world-class trainers. The women\'s boxing classes gave me confidence I never had before. Highly recommend to anyone in Dublin 24!', initials: 'AB' },
-  { name: 'Seán O\'Brien', since: 'Member since 2023', text: 'The S&C programme combined with boxing training transformed my fitness. Lost 15kg in 6 months. The community here keeps you motivated every single session.', initials: 'SO' },
-  { name: 'Niamh Kelly', since: 'Member since 2020', text: 'I\'ve trained at gyms across Dublin but Warriors is on another level. Professional, welcoming, and the results speak for themselves. Best gym in Tallaght.', initials: 'NK' },
+  { name: 'Aoife Brennan', since: 'Member since 2021', text: 'Brilliant atmosphere, world-class trainers. The women\'s boxing classes gave me confidence I never had before. Highly recommend to anyone in Dun Laoghaire!', initials: 'AB' },
+  { name: 'Seán O\'Brien', since: 'Member since 2023', text: 'The S&C programme combined with Muay Thai transformed my fitness. Lost 15kg in 6 months. The community here keeps you motivated every single session.', initials: 'SO' },
+  { name: 'Niamh Kelly', since: 'Member since 2020', text: 'I\'ve trained at gyms across Dublin but Warriors is on another level. Professional, welcoming, and the results speak for themselves. Best gym in Dun Laoghaire.', initials: 'NK' },
   { name: 'Darragh Flynn', since: 'Member since 2022', text: 'After my first free trial I knew this was the place. Great facilities, expert coaches and an unbeatable Dublin gym culture. Wouldn\'t train anywhere else.', initials: 'DF' },
   { name: 'Laura Doherty', since: 'Member since 2023', text: 'As someone who was nervous about starting boxing, the coaches here made me feel so welcome. Six months in and I\'m fitter and more confident than ever.', initials: 'LD' },
 ];
@@ -44,13 +44,13 @@ export default function Home({ onTrialClick }) {
         <div className="hero-overlay" />
         <div className="hero-glow" />
         <div className="container hero-content">
-          <div className="hero-eyebrow">🇮🇪 Dublin's Premier Boxing & Fitness Gym</div>
+          <div className="hero-eyebrow">🇮🇪 WMO Irish Muay Thai Gym of the Year 23/24</div>
           <h1>
             Train Like
             <span className="hero-accent">A Warrior</span>
           </h1>
           <p className="hero-sub">
-            Join hundreds of members who've transformed their bodies, minds and lives at Warriors Gym — Tallaght's most respected boxing and fitness facility.
+            Join Dublin's premier Muay Thai and boxing facility. WMO award-winning training for all levels at our state-of-the-art Dun Laoghaire gym.
           </p>
           <div className="hero-btns">
             <button className="btn btn-primary" onClick={onTrialClick}>
@@ -104,7 +104,7 @@ export default function Home({ onTrialClick }) {
             <div className="about-img-wrap reveal">
               <img
                 src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80&fm=webp"
-                alt="Warriors Gym Dublin training facility"
+                alt="Warriors Muay Thai Gym Dublin training facility Dun Laoghaire"
                 loading="lazy"
               />
               <div className="about-img-badge">
@@ -114,9 +114,9 @@ export default function Home({ onTrialClick }) {
             </div>
             <div className="about-content">
               <div className="eyebrow">About Warriors Gym</div>
-              <h2>Dublin's <em>Finest</em> Combat Sports Facility</h2>
+              <h2>Dublin's <em>Award-Winning</em> Muay Thai & Boxing Facility</h2>
               <p>
-                Founded in Tallaght in 2010, Warriors Gym has grown to become Dublin's most respected boxing and combat sports facility. We're not just a gym — we're a community of dedicated athletes, weekend warriors, and fitness enthusiasts united by one thing: the will to be better.
+                Founded in Dun Laoghaire in 2010, Warriors Gym has grown to become Dublin's most respected Muay Thai and boxing facility. Awarded the <strong>WMO Irish Muay Thai Gym of the Year 23/24</strong>, we're more than just a gym — we're a community of dedicated athletes, weekend warriors, and fitness enthusiasts united by one thing: the will to be better.
               </p>
               <p>
                 Whether you're stepping into a ring for the first time or training to compete at the highest level, our expert coaching staff, world-class facilities, and unmatched community atmosphere will take your training to the next level.
@@ -146,7 +146,7 @@ export default function Home({ onTrialClick }) {
           <div className="section-header reveal">
             <div className="eyebrow">Our Programs</div>
             <h2>Train. Fight. <span className="accent">Conquer.</span></h2>
-            <p className="section-desc">World-class training across boxing, combat sports and fitness disciplines — all under one roof in Dublin 24.</p>
+            <p className="section-desc">World-class training across Muay Thai, Boxing and conditioning disciplines — all under one roof in Dun Laoghaire.</p>
           </div>
           <div className="programs-grid">
             <div className="program-card large reveal" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1555597673-b21d5c935865?w=900&q=80&fm=webp')" }}>

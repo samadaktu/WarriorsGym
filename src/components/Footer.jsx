@@ -21,9 +21,9 @@ export default function Footer() {
                 <div className="footer-logo-sub">Gym Dublin</div>
               </div>
             </Link>
-            <p>Dublin's premier boxing and fitness facility. Empowering athletes of all levels since 2010 in the heart of Tallaght, Dublin 24.</p>
+            <p>Dublin's premier Muay Thai and boxing facility. WMO Irish Muay Thai Gym of the Year 23/24. Empowering athletes in Dun Laoghaire since 2010.</p>
             <div className="footer-social">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
+              <a href="https://www.instagram.com/warriorsgymdublin/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
                 <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
               </a>
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook">
@@ -54,8 +54,8 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Programs</h4>
             <ul>
-              <li><Link to="/classes">Boxing</Link></li>
               <li><Link to="/classes">Muay Thai</Link></li>
+              <li><Link to="/classes">Boxing</Link></li>
               <li><Link to="/classes">Strength & Conditioning</Link></li>
               <li><Link to="/classes">Personal Coaching</Link></li>
               <li><Link to="/classes">Beginner Classes</Link></li>
@@ -67,26 +67,26 @@ export default function Footer() {
             <h4>Contact</h4>
             <div className="footer-contact-item">
               <span className="footer-icon">📍</span>
-              <span>Unit 14, Tallaght Business Park, Dublin 24</span>
+              <span>70 Mounttown Lower, Dun Laoghaire, Co. Dublin, A96 VH75</span>
             </div>
             <div className="footer-contact-item">
               <span className="footer-icon">📞</span>
-              <a href="tel:+35312345678">+353 1 234 5678</a>
+              <a href="tel:+353878505604">087 850 5604</a>
             </div>
             <div className="footer-contact-item">
               <span className="footer-icon">✉️</span>
-              <a href="mailto:info@warriorsgym.ie">info@warriorsgym.ie</a>
+              <a href="mailto:warriorsgymdublin@gmail.com">warriorsgymdublin@gmail.com</a>
             </div>
             <div className="footer-contact-item">
               <span className="footer-icon">🕐</span>
-              <span>Mon–Fri: 6AM–10PM<br />Sat–Sun: 8AM–6PM</span>
+              <span>Mon–Fri: 6AM–10PM<br />Sat: 8AM–6PM | Sun: 10AM–4PM</span>
             </div>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>© 2025 Warriors Gym Dublin. All rights reserved.</p>
-          <p className="footer-tagline">Built for Warriors in Dublin, Ireland 🇮🇪</p>
+          <p>© 2025 Warriors Muay Thai & Boxing Gym Dublin. All rights reserved.</p>
+          <p className="footer-tagline">Built for Warriors in Dun Laoghaire, Ireland 🇮🇪</p>
         </div>
       </div>
     </footer>

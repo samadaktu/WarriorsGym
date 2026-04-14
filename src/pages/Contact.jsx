@@ -32,7 +32,7 @@ export default function Contact() {
         <div className="container page-hero-content">
           <div className="eyebrow">Get In Touch</div>
           <h1>Contact <span className="neon">Us</span></h1>
-          <p>Questions about membership, classes or coaching? We'd love to hear from you. Based in Tallaght, Dublin 24.</p>
+          <p>Questions about membership, classes or coaching? We'd love to hear from you. Based in Dun Laoghaire, Dublin.</p>
         </div>
       </section>
 
@@ -42,35 +42,35 @@ export default function Contact() {
 
             {/* Info panel */}
             <div className="contact-info reveal">
-              <h2 className="contact-info-title">Find Us in <span className="neon">Dublin 24</span></h2>
+              <h2 className="contact-info-title">Find Us in <span className="neon">Dun Laoghaire</span></h2>
 
               <div className="info-cards">
                 <div className="info-card">
                   <div className="info-icon">📍</div>
                   <div>
                     <div className="info-label">Address</div>
-                    <div className="info-value">Unit 14, Tallaght Business Park<br />Dublin 24, D24 XY12<br />Ireland</div>
+                    <div className="info-value">70 Mounttown Lower<br />Dun Laoghaire, Co. Dublin<br />A96 VH75, Ireland</div>
                   </div>
                 </div>
                 <div className="info-card">
                   <div className="info-icon">📞</div>
                   <div>
                     <div className="info-label">Phone</div>
-                    <a href="tel:+35312345678" className="info-value info-link">+353 1 234 5678</a>
+                    <a href="tel:+353878505604" className="info-value info-link">087 850 5604</a>
                   </div>
                 </div>
                 <div className="info-card">
                   <div className="info-icon">✉️</div>
                   <div>
                     <div className="info-label">Email</div>
-                    <a href="mailto:info@warriorsgym.ie" className="info-value info-link">info@warriorsgym.ie</a>
+                    <a href="mailto:warriorsgymdublin@gmail.com" className="info-value info-link">warriorsgymdublin@gmail.com</a>
                   </div>
                 </div>
                 <div className="info-card">
                   <div className="info-icon">💬</div>
                   <div>
                     <div className="info-label">WhatsApp</div>
-                    <a href="https://wa.me/35312345678" target="_blank" rel="noopener noreferrer" className="info-value info-link">Message Us on WhatsApp</a>
+                    <a href="https://wa.me/353878505604" target="_blank" rel="noopener noreferrer" className="info-value info-link">Message Us on WhatsApp</a>
                   </div>
                 </div>
               </div>
@@ -89,14 +89,14 @@ export default function Contact() {
               {/* Map embed placeholder */}
               <div className="map-embed">
                 <iframe
-                  title="Warriors Gym Dublin Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.8!2d-6.3745!3d53.2862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDE3JzEwLjMiTiA2wrAyMic0OC4yIlc!5e0!3m2!1sen!2sie!4v1620000000000"
+                  title="Warriors Muay Thai Gym Dublin Location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.9!2d-6.1486!3d53.2858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486708ab3437e449%3A0xe6a48d88c48a8e1!2s70%20Mounttown%20Lower%2C%20Monkstown%2C%20Dun%20Laoghaire%2C%20Co.%20Dublin%2C%20A96%20VH75!5e0!3m2!1sen!2sie!4v1713123456789!5m2!1sen!2sie"
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 />
                 <div className="map-overlay-label">
-                  <span>📍 Tallaght Business Park, Dublin 24</span>
+                  <span>📍 70 Mounttown Lower, Dun Laoghaire</span>
                 </div>
               </div>
             </div>

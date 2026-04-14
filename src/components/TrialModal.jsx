@@ -35,7 +35,7 @@ export default function TrialModal({ isOpen, onClose }) {
           <>
             <div className="modal-eyebrow">🥊 Limited Spots Available</div>
             <h2 className="modal-title">Claim Your <span>Free</span> Trial</h2>
-            <p className="modal-desc">Your first session is completely free. No commitment, no strings attached. Just come train with us in Dublin 24.</p>
+            <p className="modal-desc">Your first session is completely free. No commitment, no strings attached. Just come train with us in Dun Laoghaire.</p>
 
             <form className="modal-form" onSubmit={handleSubmit}>
               <input
